@@ -1,0 +1,245 @@
+dependencies:
+  '@rush-temp/a': 'file:projects/a.tgz'
+  fela: 11.3.1
+  react: /preact/10.5.2
+  react-fela: 11.3.3_fela@11.3.1+react@10.5.2
+lockfileVersion: 5.1
+packages:
+  /asap/2.0.6:
+    dev: false
+    resolution:
+      integrity: sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
+  /core-js/1.2.7:
+    deprecated: 'core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
+    dev: false
+    resolution:
+      integrity: sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
+  /css-in-js-utils/3.1.0:
+    dependencies:
+      hyphenate-style-name: 1.0.4
+    dev: false
+    resolution:
+      integrity: sha512-fJAcud6B3rRu+KHYk+Bwf+WFL2MDCJJ1XG9x137tJQ0xYxor7XziQtuGFbWNdqrvF4Tk26O3H73nfVqXt/fW1A==
+  /csstype/2.6.13:
+    dev: false
+    resolution:
+      integrity: sha512-ul26pfSQTZW8dcOnD2iiJssfXw0gdNVX9IJDH/X3K5DGPfj+fUYe3kB+swUY6BF3oZDxaID3AJt+9/ojSAE05A==
+  /encoding/0.1.13:
+    dependencies:
+      iconv-lite: 0.6.2
+    dev: false
+    resolution:
+      integrity: sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==
+  /fast-loops/1.1.3:
+    dev: false
+    resolution:
+      integrity: sha512-8EZzEP0eKkEEVX+drtd9mtuQ+/QrlfW/5MlwcwK5Nds6EkZ/tRzEexkzUY2mIssnAyVLT+TKHuRXmFNNXYUd6g==
+  /fbjs/0.8.17:
+    dependencies:
+      core-js: 1.2.7
+      isomorphic-fetch: 2.2.1
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      promise: 7.3.1
+      setimmediate: 1.0.5
+      ua-parser-js: 0.7.22
+    dev: false
+    resolution:
+      integrity: sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
+  /fela-bindings/11.4.0_fela@11.3.1:
+    dependencies:
+      fast-loops: 1.1.3
+      fela: 11.3.1
+      fela-dom: 11.4.0
+      fela-tools: 11.4.0
+      react-addons-shallow-compare: 15.6.2
+      shallow-equal: 1.2.1
+    dev: false
+    peerDependencies:
+      fela: '*'
+    resolution:
+      integrity: sha512-tYccgYaG60onqBEsBzFXpcYcDbZhCQ6telmCJ1duqw+sZKe5lZGsJiWEZddeilv/zLAtc1mQldXnP1g6Ydxs+w==
+  /fela-dom/11.4.0:
+    dependencies:
+      css-in-js-utils: 3.1.0
+      fast-loops: 1.1.3
+      fela-utils: 11.4.0
+      sort-css-media-queries: 1.5.2
+    dev: false
+    resolution:
+      integrity: sha512-QKTFdKvciRkUysMSoR9n2bwvPBbqxaJsfxsxcLtYR/00d5CVF4LGckUvkbdo5x3l7eicFEzNNgOnZ1Os05vvtg==
+  /fela-tools/11.4.0:
+    dependencies:
+      css-in-js-utils: 3.1.0
+      fast-loops: 1.1.3
+      fela: 11.4.0
+      fela-utils: 11.4.0
+    dev: false
+    resolution:
+      integrity: sha512-3fY+u07Ao348GauHfI8b1bwbckEDOVfge4eD5gWybJYRH7m11GCQDHl3Nbe7dxoXa7wq7r6jqt26so/f4/YJlA==
+  /fela-utils/11.4.0:
+    dependencies:
+      css-in-js-utils: 3.1.0
+      fast-loops: 1.1.3
+    dev: false
+    resolution:
+      integrity: sha512-mLbmZs57gqUOx7BWhGKpREv8CYRTENIiVMeXWQwJCTuyiKGh0vscJ0BNjsKtVPii6a8k8Atc4qP5RINfbSKgPQ==
+  /fela/11.3.1:
+    dependencies:
+      css-in-js-utils: 3.1.0
+      csstype: 2.6.13
+      fast-loops: 1.1.3
+      fela-utils: 11.4.0
+      isobject: 3.0.1
+    dev: false
+    resolution:
+      integrity: sha512-FMUKQ3qsXHz4vjruNUfOFjWVzZ28IQGQumbjsMAmXa2QmlNiDeG84nKEPQa9zcuYSWiZhZL7FLhUcgTkZ3J4Cg==
+  /fela/11.4.0:
+    dependencies:
+      css-in-js-utils: 3.1.0
+      csstype: 2.6.13
+      fast-loops: 1.1.3
+      fela-utils: 11.4.0
+      isobject: 3.0.1
+    dev: false
+    resolution:
+      integrity: sha512-q4vmQjtyzj0yY4HD63Cl9KFzyOcyrNPQHdtgHZQJqXi5FsAYXMawHveqLHRv8kvXVuK3KQz0zQPUQS06xEZjmQ==
+  /hyphenate-style-name/1.0.4:
+    dev: false
+    resolution:
+      integrity: sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==
+  /iconv-lite/0.6.2:
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-2y91h5OpQlolefMPmUlivelittSWy0rP+oYVpn6A7GwVHNE8AWzoYOBNmlwks3LobaJxgHCYZAnyNo2GgpNRNQ==
+  /is-stream/1.1.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+  /isobject/3.0.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+  /isomorphic-fetch/2.2.1:
+    dependencies:
+      node-fetch: 1.7.3
+      whatwg-fetch: 3.4.1
+    dev: false
+    resolution:
+      integrity: sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  /js-tokens/4.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+  /loose-envify/1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  /node-fetch/1.7.3:
+    dependencies:
+      encoding: 0.1.13
+      is-stream: 1.1.0
+    dev: false
+    resolution:
+      integrity: sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
+  /object-assign/4.1.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  /preact/10.5.2:
+    dev: false
+    resolution:
+      integrity: sha512-4y2Q6kMiJtMONMJR7z+o8P5tGkMzVItyy77AXGrUdusv+dk4jwoS3KrpCBkFloY2xsScRJYwZQZrx89tTjDkOw==
+  /promise/7.3.1:
+    dependencies:
+      asap: 2.0.6
+    dev: false
+    resolution:
+      integrity: sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==
+  /prop-types/15.7.2:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+    dev: false
+    resolution:
+      integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+  /react-addons-shallow-compare/15.6.2:
+    dependencies:
+      fbjs: 0.8.17
+      object-assign: 4.1.1
+    dev: false
+    resolution:
+      integrity: sha1-GYoAuR/DdiPbZKKP0XtZa6NicC8=
+  /react-fela/11.3.3_fela@11.3.1+react@10.5.2:
+    dependencies:
+      fela: 11.3.1
+      fela-bindings: 11.4.0_fela@11.3.1
+      fela-dom: 11.4.0
+      prop-types: 15.7.2
+      react: /preact/10.5.2
+    dev: false
+    peerDependencies:
+      fela: ^11.3.1
+      react: ^16.3.0
+    resolution:
+      integrity: sha512-GDKDftFPAEid/cK0ftc4pVBhxgtj+GdfqF9doWpOEjmPyhsZSbh5tErVG2i7WggogBqNZ35JAccex+90WX/Vhw==
+  /react-is/16.13.1:
+    dev: false
+    resolution:
+      integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+  /safer-buffer/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+  /setimmediate/1.0.5:
+    dev: false
+    resolution:
+      integrity: sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
+  /shallow-equal/1.2.1:
+    dev: false
+    resolution:
+      integrity: sha512-S4vJDjHHMBaiZuT9NPb616CSmLf618jawtv3sufLl6ivK8WocjAo58cXwbRV1cgqxH0Qbv+iUt6m05eqEa2IRA==
+  /sort-css-media-queries/1.5.2:
+    dev: false
+    engines:
+      node: '>= 6.3.0'
+    resolution:
+      integrity: sha512-ytWRP2PfWO2OYF79rbn2u58y7L7LeW+KjAqzVSVarvqMt0YkCS3YlohpULL+vIRm4BW87D67tYorw73J07Gy8Q==
+  /ua-parser-js/0.7.22:
+    dev: false
+    resolution:
+      integrity: sha512-YUxzMjJ5T71w6a8WWVcMGM6YWOTX27rCoIQgLXiWaxqXSx9D7DNjiGWn1aJIRSQ5qr0xuhra77bSIh6voR/46Q==
+  /whatwg-fetch/3.4.1:
+    dev: false
+    resolution:
+      integrity: sha512-sofZVzE1wKwO+EYPbWfiwzaKovWiZXf4coEzjGP9b2GBVgQRLQUZ2QcuPpQExGDAW5GItpEm6Tl4OU5mywnAoQ==
+  'file:projects/a.tgz':
+    dependencies:
+      fela: 11.3.1
+      react: /preact/10.5.2
+      react-fela: 11.3.3_fela@11.3.1+react@10.5.2
+    dev: false
+    name: '@rush-temp/a'
+    resolution:
+      integrity: sha512-Bscmnzo7cucAgd8AfP3UqKcGvfvO++mUFiMES6BM4m2Gv4W+5lPJoHOr1P+oM8eIO2YxyEEre213ZfATbQ5oPg==
+      tarball: 'file:projects/a.tgz'
+    version: 0.0.0
+specifiers:
+  '@rush-temp/a': 'file:./projects/a.tgz'
+  fela: 11.3.1
+  react: 'npm:preact@10.5.2'
+  react-fela: 11.3.3

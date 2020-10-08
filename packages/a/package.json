@@ -1,0 +1,10 @@
+{
+    "name": "a",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "fela": "11.3.1",
+        "react": "npm:preact@10.5.2",
+        "react-fela": "11.3.3"
+    }
+}
